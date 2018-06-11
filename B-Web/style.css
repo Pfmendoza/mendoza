@@ -1,0 +1,288 @@
+			.button1{
+        margin: 0 auto;
+        display: block;
+        width: 170px;
+				font:bold 40px arial;
+				text-decoration:none;
+				color: #FFFFFF;
+				border: 4px solid #FFFFFF;
+				padding:10px 35px 10px 35px;
+				border-radius:5px;
+				transition:background 1s,color 1s;
+				-webkit-transition:background 1s,color 1s;
+				-moz-transition:background 1s,color 1s;
+				-o-transition:background 1s,color 1s;
+            margin-top: 90px;
+				}
+
+				.button1:hover{
+
+          margin: 0 auto;
+                margin-top: 90px;
+        display: block;
+        width: 170px;
+        background: #ededed59;
+        color: black;
+				}
+
+.centro{
+
+    margin: 0 auto;
+      display: block;
+      width:30%;
+      background-color: #00000057;
+      border-radius:10px;
+}
+#indice{
+  background: black;
+color: white;
+margin-bottom: 30px;
+margin-top: 190px;
+
+}
+
+img{
+	max-width:100%;
+	margin:auto;
+}
+
+body{
+    background-color: #E6E6E6;
+    width:95%;
+    margin:auto;
+    max-width:100%;
+}
+
+.contenedor {
+			width:auto;
+			max-width:2000px;
+			margin:auto;	
+			overflow:hidden;
+}
+
+h1{
+	font-family: italic;
+    margin: auto;
+    color:black;
+    text-align:center;
+    margin-top:5px;
+}
+.indicetexto {
+    list-style: none;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    font-family: sans-serif;
+    list-style-type: circle;
+    margin-bottom: 10px;
+}
+.indicetexto a{
+    color: white;
+
+    text-decoration: none;
+
+}
+.indicetexto a:hover{
+  border-radius:10px;
+
+    color: white;
+
+    text-decoration: none;
+  background: #ededed59;
+  color: black;
+font-weight:700 !important;
+}
+
+h2 { 
+	font-style: italic;
+    margin: 10px;
+    color:black;
+    text-align:lef;
+    margin-top:35px;
+	
+}
+a {
+text-align:center
+}
+
+p{
+    font-family: curisve;
+    color:#0080FF;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+#contenido{
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 50px;
+}
+
+
+#header {
+margin:auto;
+width:700px;
+font-family:Arial, Helvetica, sans-serif;
+height: 40px;
+background-color: black;
+
+}
+
+ul, ol {
+list-style:none;
+}
+
+.nav > li {
+float:left;
+}
+
+.nav li a {
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+}
+
+.nav li a:hover {
+background-color:#81BEF7;
+}
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+.nav li ul li {
+position:relative;
+}
+
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+.tlt{
+margin-top:10px;
+	text-align:left;
+    font-size: 30px;
+	
+}
+#menumovil{
+display: none;
+}
+div#header {
+    display: block;
+}
+
+
+    #header2{
+        background-image: url(img/logo.jpg);height: 30%;
+        background-size: cover;
+         width:auto;
+		margin:5px;
+   
+        
+        
+    }
+        div.a {
+text-align: center;
+}
+
+.bloque{
+display: flow-root;
+margin: 0 auto;
+width: 90%;
+padding: 10px;
+margin-top: 10px;
+}
+*{
+  font-family: sans-serif;
+}
+ #espacio{
+			margin-top:7%;
+    }	
+@media only screen and (max-width: 767px) {
+
+body {
+
+background-image: url(img/background-photo-mobile-devices.jpg);
+
+}
+
+@media (max-width : 420px) {
+    .visiblemovil {display:block;}
+    .visibledesktop {display:none;}
+	.centro{zoom:1.3;
+    width:auto;
+    overflow-x: hidden;
+	
+    }
+    
+    body{
+			overflow-x:hidden;
+    }
+    
+    #indice{
+		margin-top:0px;
+    }
+    
+    .tlt{
+	margin-top:0px;
+	text-align:center;
+    font-size: 20px;
+	
+}
+    
+    #espacio{
+			margin-top:0px;
+   
+    }	
+.playa{
+	background-image:url(img/0.1.JPG);
+ }
+ 
+ 
+ 
+.menu2 li a, .menu2 ol a {
+    color: white;
+        text-decoration: none;
+}
+.menu2 li{
+    padding: 15px;
+border-color: #b6b6b6;
+background: #000000e0;
+width: 95%;
+display: block;
+    margin: 0 auto;
+}
+.menu2 ol{
+    background: #9E9E9E;
+text-align: center;
+width: 95%;
+display: block;
+    margin: 0 auto;
+}
+.menumovil{
+    display: block;
+    margin: 0 auto;
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+#menumovil{
+display: block;
+margin-left: -15%;
+
+}
+div#header {
+    display: none;
+}
+
+
+}
